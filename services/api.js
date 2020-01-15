@@ -1,0 +1,1 @@
+module.exports = {uri: 'https://api.github.com/users'}
