@@ -18,7 +18,7 @@ class App {
     }
 
     database() {
-        mongoose.connect(db.uri, {useNewUrlParser: true, useUnifiedTopology: true})
+        mongoose.connect(db.uri, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true})
     }
 
     middlewares() {
